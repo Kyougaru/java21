@@ -9,12 +9,12 @@ public class Main {
         employees.add(new Developer("Maria", 20, 173));
 
         for (var employee : employees) {
-            double salary = switch (employee) {
-                case Manager manager -> manager.calculateSalary();
-                case Developer developer -> developer.calculateSalary();
+            var role = switch (employee) {
+                case Manager(String name, double baseSalary) -> "manager";
+                case Developer(String name, double hourlyRate, int hoursWorked) -> "developer";
             };
 
-            var message = FMT."The salary of \{employee.name()} is $%1.2f\{salary}";
+            var message = FMT."The salary of the \{role} \{employee.name()} is $%1.2f\{employee.calculateSalary()}";
             System.out.println(message);
         }
     }
