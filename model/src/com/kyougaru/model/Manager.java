@@ -1,3 +1,5 @@
+package com.kyougaru.model;
+
 public record Manager(String name, double baseSalary) implements Employee {
     @Override
     public double calculateSalary() {

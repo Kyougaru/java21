@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/features.example/features.example.iml" filepath="$PROJECT_DIR$/features.example/features.example.iml" />
       <module fileurl="file://$PROJECT_DIR$/java21.iml" filepath="$PROJECT_DIR$/java21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/virtual.threads/virtual.threads.iml" filepath="$PROJECT_DIR$/virtual.threads/virtual.threads.iml" />
     </modules>
   </component>
 </project>

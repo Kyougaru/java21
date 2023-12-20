@@ -1,3 +1,9 @@
+package com.kyougaru;
+
+import com.kyougaru.model.Developer;
+import com.kyougaru.model.Employee;
+import com.kyougaru.model.Manager;
+
 import java.util.ArrayList;
 
 import static java.util.FormatProcessor.FMT;
